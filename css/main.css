@@ -67,7 +67,7 @@ h1 {
   text-align: center;
 }
 
-a:hover {
+.a:hover {
   background-color: #2b1700;
 }
 
@@ -138,6 +138,25 @@ section {
 
 .menuimg {
   max-width: 100px;
+}
+
+.btn {
+  display: inline-block;
+  color: #532915;
+  text-decoration: none;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #532915;
+  padding: 2rem;
+}
+
+.btn:hover {
+  background-color: #2b1700;
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
